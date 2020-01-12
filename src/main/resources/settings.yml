@@ -1,0 +1,7 @@
+# OFFICIAL SETTINGS CONFIGURATION FILE FOR ADVANCEDPERDITION. #
+
+# The amount of XP the player gets when they kill another player.
+amount-of-xp-per-player-kill: "5"
+
+# The amount of XP the player gets when they will an entity (eg. zombie, chicken)
+amount-of-xp-per-entity-kill: "1"

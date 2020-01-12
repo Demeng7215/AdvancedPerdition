@@ -1,0 +1,35 @@
+# OFFICIAL MESSAGES CONFIGURATION FILE FOR ADVANCEDPERDITION. #
+
+# The prefix of all the messages that the plugin sends.
+prefix: "&8[&5AdvancedPerdition&8] &r"
+
+# This message will be sent if the command executor does not have sufficient permissions for that command.
+insufficient-permissions: "&4You do not have sufficient permissions to execute that command."
+
+# This message will be sent if the console attempts to execute a players-only command.
+player-only-command: "&4That command can only be ran in-game by a player."
+
+# The message that is sent when all configuration files have been successfully reloaded.
+configs-reloaded: "&4All configuration files have been successfully reloaded."
+
+# This message will be sent if the command executor does not provide sufficient arguments in the command.
+invalid-arguments: "&4Invalid usage. Double-check your spelling and see &b/perdition help &4for proper command usage."
+
+# The message that will be sent if the command's target player is offline or non-existing.
+target-does-not-exist: "&4That is not a valid player."
+
+# The message that will be sent when someone successfully changes a player's class.
+profile-edited-successfully: "&4Successfully changed &b%target%&4's profile:"
+
+# This message will be displayed when someone requests perdition information of a player.
+player-info: "&5&b&m――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――\n&4&lUsername: &b&l%target%\n&4Class: &b%class%\n&4Subclass: &b%subclass%\n&4Ability: &b%ability%\n&4XP: &b%xp%\n&5&b&m――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――"
+
+# The message that will be sent if a player tries to assign a subclass to an NPC but they are not looking at the NPC.
+not-looking-at-npc: "&4Please place your cursor on the NPC you wish to assign a subclass to and try again."
+
+# This message will be sent when a subclass has been successfully bound to the NPC the player is looking at.
+subclass-successfully-bound-to-npc: "&4Successfully bound the subclass to the NPC you are looking at."
+
+# The message that will be sent when a player tries to change their subclass via its NPC when they already have a subclass.
+# To change the player's subclass, you must do it through /setprofile.
+subclass-already-set: "&4You cannot change your subclass after you have confirmed it via NPC."

@@ -1,0 +1,8 @@
+name: AdvancedPerdition
+version: ${project.version}
+main: com.demeng7215.advancedperdition.AdvancedPerdition
+api-version: 1.13
+authors: [Demeng7215]
+description: A plugin that allows player to choose classes, sub-classes, and special abilities.
+website: https://demeng7215.com/
+depend: [Citizens, ProtocolLib]
